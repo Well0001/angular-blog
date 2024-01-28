@@ -1,17 +1,12 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="https://vidafullstack.com.br/wp-content/uploads/2023/12/angular-1080x675.jpg">
+    <img src="{{ photoLink }}">
   </div>
   <div class="big-card__title">
-    <h1><a href="#">Title of Description</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card__description">
-    <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Donec orci tellus, porta non tempor a, molestie at urna.
-        Nulla posuere sed ex a tincidunt. Suspendisse potenti.
-         Donec tincidunt mattis eleifend.
-          Nulla risus augue, aliquam in ligula vitae, venenatis egestas leo.
-           Nulla non est vel ipsum varius bibendum.</a></p>
+    <p><a href="#">{{ cardDescription }}</a></p>
   </div>
 </div>
 
