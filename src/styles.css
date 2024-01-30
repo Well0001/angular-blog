@@ -12,4 +12,11 @@ a {
   text-decoration: none;
 }
 
+.separator{
+  width: 90%;
+  margin: 10px auto;
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, #180766, #2c2c2c);
+}
 
